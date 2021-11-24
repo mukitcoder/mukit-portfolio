@@ -10,20 +10,21 @@ const Banner = () => {
     >
       <div className="m-auto text-center">
         <div>
-          <h1 className="text-5xl mb-6">Hello I'm <span className="text-yellow-500 text-6xl">Mukit</span></h1>
+            <h4 className="text-1xl">WELCOME TO MY WORLD !</h4>
+          <h1 className="text-5xl mb-6">Hello, I'M <span className="text-yellow-500 text-6xl">Mukit</span></h1>
         </div>
 
         <Typical
           className="text-4xl mb-6"
           steps={[
-            "Enthusiastic Developer ✔",
-            1000,
+            "Professional Coder ✔",
+            2000,
             "React Developer 😎",
-            1200,
+            2200,
             "Front-End Developer 😍",
-            1400,
+            2400,
             "MERN Stack Developer ✔",
-            1600,
+            2600,
           ]}
           loop={Infinity}
           wrapper="p"
