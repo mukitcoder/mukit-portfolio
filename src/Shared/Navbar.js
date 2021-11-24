@@ -3,38 +3,63 @@ import { TailwindNavbar } from 'tailwind-navbar-react';
 import logo from '../images/mukit_logo.png'
 
 const Navbar = () => {
+  const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <TailwindNavbar
-        brand={
-          <img src={logo} width="150" height="40" alt="Brand logo" />
-        }
-        className="py-1"
-      >
-        <nav>
-          <ul className="items-center justify-between pt-4 text-base lg:flex lg:pt-0">
-            <li>
-              <a className="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="#home">
-                Home
+      <>
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-indigo-500">
+      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <a
+            className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="#pablo"
+          >
+            indigo Tailwind Starter Kit
+          </a>
+          <button
+            className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-black"
+            type="button"
+            onClick={() => setNavbarOpen(!navbarOpen)}
+          >
+            <i className="fas fa-bars text-white"></i>
+          </button>
+        </div>
+        <div
+          className={
+            "lg:flex flex-grow items-center" +
+            (navbarOpen ? " flex" : " hidden")
+          }
+          id="example-navbar-danger"
+        >
+          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                href="#pablo"
+              >
+                <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Share</span>
               </a>
             </li>
-            <li>
-              <a className="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="/home">
-                My Projects
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                href="#pablo"
+              >
+                <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Tweet</span>
               </a>
             </li>
-            <li>
-              <a className="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="/home">
-                Resume
-              </a>
-            </li>
-            <li>
-              <a className="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="/">
-                Reviews
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                href="#pablo"
+              >
+                <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Pin</span>
               </a>
             </li>
           </ul>
-        </nav>
-      </TailwindNavbar>
+        </div>
+      </div>
+    </nav>
+    </>
     );
 };
 
