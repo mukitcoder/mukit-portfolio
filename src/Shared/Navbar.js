@@ -1,19 +1,17 @@
 import React from 'react';
-import { TailwindNavbar } from 'tailwind-navbar-react';
-import logo from '../images/mukit_logo.png'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
       <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-indigo-500">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-gray-700">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
-            className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            className="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="#pablo"
           >
-            indigo Tailwind Starter Kit
+            MUKIT PORTFOLIO
           </a>
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-black"
@@ -36,7 +34,7 @@ const Navbar = () => {
                 className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                 href="#pablo"
               >
-                <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Share</span>
+                <i className="fas fa-home text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Home</span>
               </a>
             </li>
             <li className="nav-item">
@@ -44,7 +42,7 @@ const Navbar = () => {
                 className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                 href="#pablo"
               >
-                <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Tweet</span>
+                <i className="fas fa-fill-drip text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Skills</span>
               </a>
             </li>
             <li className="nav-item">
@@ -52,7 +50,15 @@ const Navbar = () => {
                 className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                 href="#pablo"
               >
-                <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Pin</span>
+                <i className="fas fa-project-diagram text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Projects</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                href="#pablo"
+              >
+                <i className="far fa-star text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Reviews</span>
               </a>
             </li>
           </ul>

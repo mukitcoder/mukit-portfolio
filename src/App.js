@@ -5,7 +5,7 @@ import Navbar from './Shared/Navbar';
 
 function App() {
   return (
-    <div className=""> 
+    <div className="bg-black"> 
       <Navbar></Navbar>
       <Banner></Banner>
     </div>
