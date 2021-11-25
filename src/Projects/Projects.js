@@ -1,14 +1,17 @@
 import React from 'react';
+import './Projects.css'
 import {
   Card
 } from 'tailwind-mobile/react';
 
 const Projects = () => {
   return (
-  <div className="container mx-auto">
+  <div className="container mx-auto mt-32" id="projects">
      <h1 className="text-5xl text-center py-5 mt-5 mb-10 text-white">
-        Some Of My Projects{" "}
+        Some Of My <span className="text-yellow-500">Projects</span>
+        <hr className="mt-4 w-1/2 mx-auto hr-style" />
       </h1>
+     
     <div class="grid grid-cols-1 md:grid-cols-4">
       {/* Start Project 1 */}
       <div>
@@ -52,9 +55,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://the-travel-react.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/travel" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -78,9 +81,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://dentistry-react.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/dentistry" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -104,9 +107,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://verbalizer-education.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/verbalizer" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -130,9 +133,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://skillsyouneed.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/life-skill" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -156,9 +159,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://js-book-archive-mukit.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/book-archive" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -182,9 +185,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://ranga-store-fix-mukitcoder.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/panda-store-fix" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -208,9 +211,9 @@ const Projects = () => {
           }
           footer={
             <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://honda-cbr-bootstrap-mukit.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
              {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
+              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/honda-cbr" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
             </div>
           }
         >
@@ -218,58 +221,6 @@ const Projects = () => {
         </Card>
       </div>
        {/* End Project 8 */}
-       {/* Start Project 9 */}
-      <div>
-      <Card
-          header={
-            <div
-              className="-mx-4 -my-2 h-48 p-4 flex items-end text-white font-bold bg-cover bg-center"
-              style={{
-                backgroundImage:
-                  'url(https://i.ibb.co/x5pH7QS/football.png)',  height:'300px', marginTop:'5px'
-              }}
-            >
-              <h4 className="bg-red-400 px-4 py-1 rounded-full">COPA Football</h4>
-            </div>
-          }
-          footer={
-            <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
-             {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
-            </div>
-          }
-        >
-          <div className="text-gray-500 shadow-inner font-medium">Thsi website is only for football lover. Bootstrap Project</div>
-        </Card>
-      </div>
-      {/* End Project 9 */}
-      {/* Start Project 10 */}
-      <div>
-      <Card
-          header={
-            <div
-              className="-mx-4 -my-2 h-48 p-4 flex items-end text-white font-bold bg-cover bg-center"
-              style={{
-                backgroundImage:
-                  'url(https://i.ibb.co/M6QCWQZ/macbook-pro.png)',  height:'300px', marginTop:'5px'
-              }}
-            >
-              <h4 className="bg-red-400 px-4 py-1 rounded-full">Mack Book Pro</h4>
-            </div>
-          }
-          footer={
-            <div className="flex justify-between">
-             <a className="bg-green-500 transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded " href="https://sunglass-pro.web.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
-             {/* Font Awesome */}
-              <a className="transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-white rounded" href="https://github.com/mukitcoder/sunglass" target="_blank" rel="noopener noreferrer"><i className="fab fa-github text-black"><span className="ml-2 font-bold font-sans">Github Link</span></i></a>
-            </div>
-          }
-        >
-          <div className="text-gray-500 shadow-inner font-medium">It's a Mac Book Pro web and have a stevekaku coupon code</div>
-        </Card>
-      </div>
-      {/* End Project 10 */}
     </div>
   </div>
   );

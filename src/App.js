@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './Banner/Banner';
 import Projects from './Projects/Projects';
+import Reviews from './Reviews/Reviews';
 import Navbar from './Shared/Navbar';
 import Skills from './Skills/Skills';
 
@@ -17,6 +18,7 @@ function App() {
       </div>
       <Skills></Skills>
       <Projects></Projects>
+      <Reviews></Reviews>
     </div>
   );
 }
