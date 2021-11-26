@@ -25,11 +25,11 @@ const Contact = () => {
           </p>
           <ul className="flex flex-row gap-2 mt-4">
             {/* instagram  */}
-            <a href="https://instagram.com/raydeon" target="_blank"><i className="fab fa-instagram text-3xl text-red-500"></i></a>
+            <a href="https://www.instagram.com/mukitabdullah/" target="_blank"><i className="fab fa-instagram text-3xl text-red-500"></i></a>
             {/* linkedin */}
-            <a href="https://www.linkedin.com/in/rairaksa" target="_blank"><i className="fab fa-linkedin text-3xl px-2 text-blue-700"></i></a>
+            <a href="https://www.linkedin.com/in/mukitcoder/" target="_blank"><i className="fab fa-linkedin text-3xl px-2 text-blue-700"></i></a>
             {/* github  */}
-            <a href="https://github.com/rairaksa" target="_blank"><i className="fab fa-github text-3xl"></i></a>
+            <a href="https://github.com/mukitcoder" target="_blank"><i className="fab fa-github text-3xl"></i></a>
           </ul>
         </div>
       </div>
