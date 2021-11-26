@@ -12,7 +12,7 @@ const Projects = () => {
         <hr className="mt-4 w-1/2 mx-auto hr-style" />
       </h1>
      
-    <div class="grid grid-cols-1 md:grid-cols-4">
+    <div className="grid grid-cols-1 md:grid-cols-4">
       {/* Start Project 1 */}
       <div>
       <Card

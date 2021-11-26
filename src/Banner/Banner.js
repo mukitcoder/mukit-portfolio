@@ -5,7 +5,7 @@ import bannerImage from "../images/mukit1.png";
 const Banner = () => {
   return (
     <div
-      className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 md:container md:mx-auto text-white py-5"
+      className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 container mx-auto px-4 text-white py-5"
       id="home"
     >
       <div className="m-auto text-center">

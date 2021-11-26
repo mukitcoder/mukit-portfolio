@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import Reviews from './Reviews/Reviews';
+import Footer from './Shared/Footer';
 import Navbar from './Shared/Navbar';
 import Skills from './Skills/Skills';
 
@@ -21,6 +22,7 @@ function App() {
       <Projects></Projects>
       <Reviews></Reviews>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }
