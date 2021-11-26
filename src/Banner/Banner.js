@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import bannerImage from "../images/banner.jpg";
+import bannerImage from "../images/mukit1.png";
 
 const Banner = () => {
   return (
@@ -36,7 +36,7 @@ const Banner = () => {
         </blockquote>
       </div>
       <div className="bg-no-repeat bg-center ">
-        <img className="rounded-full" src={bannerImage} alt="bannerImage" />
+        <img className="" src={bannerImage} alt="bannerImage" />
       </div>
     </div>
   );

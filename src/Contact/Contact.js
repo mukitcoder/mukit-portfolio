@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from '../images/resized-image-Promo.jpg'
+import profileImage from '../images/mukit-01.png'
 
 const Contact = () => {
   return (
@@ -18,10 +18,14 @@ const Contact = () => {
           <label className="font-bold text-gray-100 text-lg">
             Abdullah Al Mukit
           </label>
-          <p className="text-center text-gray-200 mt-2 leading-relaxed">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+          <p className="text-center mt-2 leading-relaxed font-bold">
+          <i class="far fa-envelope mr-2 text-red-500"></i>mukitbd71@gmail.com
+          </p>
+          <p className="text-center mt-2 leading-relaxed font-bold">
+          <i class="fas fa-mobile-alt mr-2 text-red-500"></i>+88-01968-399799
+          </p>
+          <p className="text-center mt-2 leading-relaxed font-bold">
+          <i class="fas fa-map-marker-alt mr-2 text-red-500"></i>Khulna, Bangladesh.
           </p>
           <ul className="flex flex-row gap-2 mt-4">
             {/* instagram  */}
