@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
           </div>
           <label className="font-bold text-gray-100 text-lg">
-            Rai Raksa Muhamad
+            Abdullah Al Mukit
           </label>
           <p className="text-center text-gray-200 mt-2 leading-relaxed">
             Lorem Ipsum is simply dummy text of the printing and typesetting
