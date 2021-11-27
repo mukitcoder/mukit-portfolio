@@ -1,13 +1,14 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const Reviews = () => {
   return (
     <div id="reviews" className="container mx-auto px-4 pt-12 mt-16">
-      <h1 className="text-5xl text-center text-white py-2 mt-5 mb-10">
+   <Fade duration={4000}>   <h1 className="text-5xl text-center text-white py-2 mt-5 mb-10">
         My <span className="text-yellow-500">Client</span> Review
         <hr className="mt-4 w-2/3 mx-auto" />
       </h1>
-
+</Fade>
       <div className="container flex flex-col md:flex-row gap-4 mx-auto">
         <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
           <div className="flex justify-center md:justify-end -mt-16">

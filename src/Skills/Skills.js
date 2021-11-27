@@ -1,13 +1,16 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const Skills = () => {
   return (
     <div className="text-white pt-12" id="skills">
-      <h1 className="text-5xl text-center py-5 mt-5 mb-10">
-        My <span className="text-yellow-500">Professional</span> Skills{" "}
-        <hr className="mt-4 w-2/3 mx-auto" />
-      </h1>
-
+      <Fade duration={4000}>
+        {" "}
+        <h1 className="text-5xl text-center py-5 mt-5 mb-10">
+          My <span className="text-yellow-500">Professional</span> Skills{" "}
+          <hr className="mt-4 w-2/3 mx-auto" />
+        </h1>
+      </Fade>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-1 w-1/2 m-auto pb-5">
           <div className="mb-1 flex justify-between">
@@ -37,7 +40,9 @@ const Skills = () => {
         {/* progress end */}
         <div className="grid grid-cols-1 md:grid-cols-1 w-1/2 m-auto pb-5">
           <div className="mb-1 flex justify-between">
-            <span className="text-2xl text-yellow-500 font-bold">BOOTSTRAP</span>
+            <span className="text-2xl text-yellow-500 font-bold">
+              BOOTSTRAP
+            </span>
             <span className="text-xl font-medium text-purple-600">85%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-5">
@@ -63,7 +68,9 @@ const Skills = () => {
         {/* progress end */}
         <div className="grid grid-cols-1 md:grid-cols-1 w-1/2 m-auto pb-5">
           <div className="mb-1 flex justify-between">
-            <span className="text-2xl text-yellow-500 font-bold">JAVASCRIPT</span>
+            <span className="text-2xl text-yellow-500 font-bold">
+              JAVASCRIPT
+            </span>
             <span className="text-xl font-medium text-red-600">70%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-5">
