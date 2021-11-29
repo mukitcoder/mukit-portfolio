@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade";
 
 const Reviews = () => {
   return (
-    <div id="reviews" className="container mx-auto px-4 pt-12 mt-16">
-   <Fade duration={4000}>   <h1 className="text-5xl text-center text-white py-2 mt-5 mb-10">
+    <div id="reviews" className="container mx-auto px-4 mt-16">
+   <Fade duration={4000}>   <h1 className="text-5xl text-center text-white mb-10 font-bold">
         My <span className="text-yellow-500">Client</span> Review
         <hr className="mt-4 w-2/3 mx-auto" />
       </h1>
