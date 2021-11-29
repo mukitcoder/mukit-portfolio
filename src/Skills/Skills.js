@@ -18,7 +18,7 @@ const Skills = () => {
     <div className="text-white pt-12" id="skills">
       <Fade duration={4000}>
         {" "}
-        <h1 className="text-5xl text-center py-5 mt-5 mb-10 font-bold">
+        <h1 className="text-5xl text-center py-5 mt-5 font-bold">
           My <span className="text-yellow-500">Professional</span> Skills{" "}
           <hr className="mt-4 w-2/3 mx-auto" />
         </h1>

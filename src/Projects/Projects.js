@@ -5,10 +5,10 @@ import { Card } from "tailwind-mobile/react";
 
 const Projects = () => {
   return (
-    <div className="container mx-auto mt-32" id="projects">
+    <div className="container mx-auto mt-32">
       <Fade duration={4000}>
         {" "}
-        <h1 className="text-5xl text-center py-5 mt-5 mb-10 text-white">
+        <h1 className="text-5xl text-center py-5 mt-5 text-white font-bold">
           Some Of My <span className="text-yellow-500">Projects</span>
           <hr className="mt-4 w-1/2 mx-auto hr-style" />
         </h1>

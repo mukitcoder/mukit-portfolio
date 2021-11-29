@@ -46,7 +46,7 @@ const Banner = () => {
         <div className="mt-16">
     {/* <!-- buttons --> */}
     <div className="text-center">
-        <button className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300">Download Resume</button>
+        <a href="https://drive.google.com/drive/u/0/folders/1b89heySkgFV3oGLIynpLuTMmdFCPhWYX" target="_blank" rel="noopener noreferrer" className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300">Download Resume</a>
     </div>
         </div>
       </div>
