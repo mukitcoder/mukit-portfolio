@@ -35,7 +35,7 @@ const Contact = () => {
             Khulna, Bangladesh.
           </p>
           <a
-            className="bg-white transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-yellow-600 rounded mt-4 transition duration-700 ease-in-out"
+            className="bg-white transform motion-safe:hover:scale-110 px-4 py-1 font-bold text-yellow-500 rounded mt-4 transition duration-700 ease-in-out"
             href="https://drive.google.com/drive/u/0/folders/1b89heySkgFV3oGLIynpLuTMmdFCPhWYX"
             target="_blank"
             rel="noopener noreferrer"

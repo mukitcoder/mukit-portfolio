@@ -14,7 +14,7 @@ const Banner = () => {
         <Zoom>
           {" "}
           <div>
-            <h4 className="text-1xl">WELCOME TO MY WORLD !</h4>
+            <h4 className="text-1xl mb-6">WELCOME TO MY WORLD !</h4>
             <h1 className="text-5xl mb-6">
               Hello, I'M <span className="text-yellow-500 text-6xl">Mukit</span>
             </h1>
@@ -45,8 +45,8 @@ const Banner = () => {
 
         <div className="mt-16">
     {/* <!-- buttons --> */}
-    <div class="text-center">
-        <button class="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300">Download Resume</button>
+    <div className="text-center">
+        <button className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300">Download Resume</button>
     </div>
         </div>
       </div>
