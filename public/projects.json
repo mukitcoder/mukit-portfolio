@@ -56,7 +56,7 @@
         "liveLink": "https://honda-cbr-bootstrap-mukit.netlify.app/",
         "clientLink": "https://github.com/mukitcoder/honda-cbr",
         "name": "Honda CBR",
-        "description": "Honda CBR related simple Front-End Bootstrap project."
+        "description": "Honda CBR related simple Front-End Bootstrap project. Mobile friendly."
        
     }
 ]

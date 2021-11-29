@@ -3,6 +3,8 @@ import "./Projects.css";
 import Fade from "react-reveal/Fade";
 import { Card } from "tailwind-mobile/react";
 
+// this component will be use in next time
+
 const Projects = () => {
   return (
     <div className="container mx-auto mt-32">
