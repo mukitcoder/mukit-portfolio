@@ -37,7 +37,7 @@ const Contact = () => {
             </p>
             <div className="text-center py-8">
               <a
-                href="https://drive.google.com/drive/u/0/folders/1b89heySkgFV3oGLIynpLuTMmdFCPhWYX"
+                href="https://drive.google.com/uc?export=download&id=1IM0O2Hb_5Ast4rNxO9i9DED5MHeeBXc_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300"
