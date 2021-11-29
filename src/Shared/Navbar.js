@@ -4,7 +4,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
       <>
-      <nav className="fixed flex flex-wrap items-center justify-between px-2 py-3 bg-gray-700 w-full">
+      <nav className="fixed z-50 flex flex-wrap items-center justify-between px-2 py-3 bg-gray-800 w-full">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
@@ -31,34 +31,34 @@ const Navbar = () => {
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item">
               <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                 href="#home"
               >
-                <i className="fas fa-home text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Home</span>
+                <i className="fas fa-home"></i><span className="ml-2">Home</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+               className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                 href="#skills"
               >
-                <i className="fas fa-fill-drip text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Skills</span>
+                <i className="fas fa-fill-drip"></i><span className="ml-2">Skills</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                 href="#projects"
               >
-                <i className="fas fa-project-diagram text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Projects</span>
+                <i className="fas fa-project-diagram"></i><span className="ml-2">Projects</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                 href="#reviews"
               >
-                <i className="far fa-star text-lg leading-lg text-white opacity-75"></i><span className="ml-4">Reviews</span>
+                <i className="far fa-star"></i><span className="ml-2">Reviews</span>
               </a>
             </li>
           </ul>

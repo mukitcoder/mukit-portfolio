@@ -42,6 +42,13 @@ const Banner = () => {
             “To win big, you sometimes have to take big risks.” --- Bill Gates
           </blockquote>
         </Wobble>
+
+        <div className="mt-16">
+    {/* <!-- buttons --> */}
+    <div class="text-center">
+        <button class="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300">Download Resume</button>
+    </div>
+        </div>
       </div>
       <div className="bg-no-repeat bg-center ">
         <img className="" src={bannerImage} alt="bannerImage" />
