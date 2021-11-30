@@ -53,7 +53,7 @@ const Banner = () => {
 
         <div className="mt-16">
     {/* <!-- buttons --> */}
-    <div className="text-center">
+    <div className="text-center mb-16 ">
         <a href="https://drive.google.com/uc?export=download&id=1IM0O2Hb_5Ast4rNxO9i9DED5MHeeBXc_" className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-yellow-500 text-lg rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300" onClick={()=>downloadBtn()}>Download Resume</a>
     </div>
         </div>
