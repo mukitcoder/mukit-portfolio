@@ -13,7 +13,7 @@ const Navbar = () => {
               className="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               
             >
-              <Link to="home">MUKIT PORTFOLIO</Link>
+              <Link to="/">MUKIT PORTFOLIO</Link>
             </span>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-black"
@@ -36,7 +36,7 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                   
                 >
-                  <NavHashLink to="/home/#home">
+                  <NavHashLink to="/#home">
                     <i className="fas fa-home"></i>
                     <span className="ml-2">Home</span>
                   </NavHashLink>
@@ -47,7 +47,7 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                  
                 >
-                 <NavHashLink to="/home/#skills"> <i className="fas fa-fill-drip"></i>
+                 <NavHashLink to="/#skills"> <i className="fas fa-fill-drip"></i>
                   <span className="ml-2">Skills</span></NavHashLink>
                 </span>
               </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                  
                 >
-                  <NavHashLink to="home/#projects"><i className="fas fa-project-diagram"></i>
+                  <NavHashLink to="/#projects"><i className="fas fa-project-diagram"></i>
                   <span className="ml-2">Projects</span></NavHashLink>
                 </span>
               </li>

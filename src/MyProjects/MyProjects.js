@@ -8,7 +8,7 @@ const MyProjects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch(`projects.json`)
+    fetch(`/projects.json`)
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
@@ -56,14 +56,7 @@ const MyProjects = () => {
                     >
                       Live Site
                     </a>
-                    {/* <a
-                      href={pd.clientLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-white text-sm rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300"
-                    ><i className="fab fa-github mr-2"></i>
-                      Github
-                    </a> */}
+                    
                     <button
                       className="p-2 pl-5 pr-5 bg-transparent border-2 font-bold border-yellow-500 text-white text-sm rounded-lg transition-colors duration-700 transform hover:bg-yellow-500 hover:text-white focus:border-4 focus:border-indigo-300"
                     >
