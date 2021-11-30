@@ -1,8 +1,30 @@
-import React from "react";
 import Fade from "react-reveal/Fade";
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 import profileImage from "../images/mukit-01.png";
 
+
+
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_si5xrdf', 'template_hxbu30f', form.current, 'user_4JNFd46byV1DFNJopV4hK')
+      .then((result) => {
+        Swal.fire(
+          'Thanks For Your Message!',
+          'I will reply you soon',
+          'success'
+        )
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-16">
       <div className="container mx-auto px-4">
@@ -85,12 +107,13 @@ const Contact = () => {
         </Fade>
         <section className="w-full text-gray-900 bg-center bg-cover bg-no-repeat mt-4">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 flex items-center justify-center">
-            <form className="p-8 flex flex-col lg:ml-auto w-full mt-10 lg:mt-0 rounded-md">
+            <form ref={form} onSubmit={sendEmail} className="p-8 flex flex-col lg:ml-auto w-full mt-10 lg:mt-0 rounded-md">
               <div className="relative mb-4">
                 <label for="full-name" className="leading-7 text-sm text-gray-100">
                   Name
                 </label>
                 <input
+                required
                   type="text"
                   id="name"
                   name="name"
@@ -102,9 +125,10 @@ const Contact = () => {
                   Email
                 </label>
                 <input
+                required
                   type="email"
                   id="email"
-                  name="email"
+                 name="email"
                   className="w-full bg-white rounded-md border border-gray-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-150 ease-in-out"
                 />
               </div>
@@ -113,6 +137,7 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
+                required
                   id="message"
                   name="message"
                   rows="4"
@@ -126,6 +151,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
+         
         </section>
       </div>
     </div>
