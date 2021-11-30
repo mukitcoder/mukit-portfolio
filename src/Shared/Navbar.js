@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavHashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
               className="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               href="#pablo"
             >
-              MUKIT PORTFOLIO
+              <Link to="home">MUKIT PORTFOLIO</Link>
             </a>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-black"
@@ -35,10 +36,10 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                   href="#home"
                 >
-                  <Link to="home">
+                  <NavHashLink to="/home/#home">
                     <i className="fas fa-home"></i>
                     <span className="ml-2">Home</span>
-                  </Link>
+                  </NavHashLink>
                 </a>
               </li>
               <li className="nav-item">
@@ -46,8 +47,8 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                   href="#skills"
                 >
-                  <i className="fas fa-fill-drip"></i>
-                  <span className="ml-2">Skills</span>
+                 <NavHashLink to="/home/#skills"> <i className="fas fa-fill-drip"></i>
+                  <span className="ml-2">Skills</span></NavHashLink>
                 </a>
               </li>
               <li className="nav-item">
@@ -55,8 +56,8 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
                   href="#projects"
                 >
-                  <i className="fas fa-project-diagram"></i>
-                  <span className="ml-2">Projects</span>
+                  <NavHashLink to="home/#projects"><i className="fas fa-project-diagram"></i>
+                  <span className="ml-2">Projects</span></NavHashLink>
                 </a>
               </li>
               <li className="nav-item">
