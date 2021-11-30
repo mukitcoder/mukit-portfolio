@@ -113,7 +113,7 @@ const Contact = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 flex items-center justify-center">
             <form ref={form} onSubmit={sendEmail} className="p-8 flex flex-col lg:ml-auto w-full mt-10 lg:mt-0 rounded-md">
               <div className="relative mb-4">
-                <label for="full-name" className="leading-7 text-sm text-gray-100">
+                <label htmlFor="full-name" className="leading-7 text-sm text-gray-100">
                   Name
                 </label>
                 <input
@@ -125,7 +125,7 @@ const Contact = () => {
                 />
               </div>
               <div className="relative mb-4">
-                <label for="email" className="leading-7 text-sm text-gray-100">
+                <label htmlFor="email" className="leading-7 text-sm text-gray-100">
                   Email
                 </label>
                 <input
@@ -137,7 +137,7 @@ const Contact = () => {
                 />
               </div>
               <div className="relative mb-4">
-                <label for="email" className="leading-7 text-sm text-gray-100">
+                <label htmlFor="email" className="leading-7 text-sm text-gray-100">
                   Message
                 </label>
                 <textarea

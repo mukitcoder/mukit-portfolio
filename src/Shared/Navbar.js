@@ -9,12 +9,12 @@ const Navbar = () => {
       <nav className="fixed z-50 flex flex-wrap items-center justify-between px-2 py-3 bg-gray-800 w-full">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
+            <span
               className="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-              href="#pablo"
+              
             >
               <Link to="home">MUKIT PORTFOLIO</Link>
-            </a>
+            </span>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-black"
               type="button"
@@ -32,56 +32,56 @@ const Navbar = () => {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-                <a
+                <span
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
-                  href="#home"
+                  
                 >
                   <NavHashLink to="/home/#home">
                     <i className="fas fa-home"></i>
                     <span className="ml-2">Home</span>
                   </NavHashLink>
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a
+                <span
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
-                  href="#skills"
+                 
                 >
                  <NavHashLink to="/home/#skills"> <i className="fas fa-fill-drip"></i>
                   <span className="ml-2">Skills</span></NavHashLink>
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a
+                <span
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
-                  href="#projects"
+                 
                 >
                   <NavHashLink to="home/#projects"><i className="fas fa-project-diagram"></i>
                   <span className="ml-2">Projects</span></NavHashLink>
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a
+                <span
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
-                  href="#reviews"
+                 
                 >
                   <Link to="about">
-                    <i class="fab fa-pagelines"></i>
+                    <i className="fab fa-pagelines"></i>
                     <span className="ml-2">ABOUT ME</span>
                   </Link>
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a
+                <span
                   className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
-                  href="#reviews"
+                  
                 >
                   <Link to="blog">
                     {" "}
-                    <i class="fab fa-blogger-b"></i>
+                    <i className="fab fa-blogger-b"></i>
                     <span className="ml-2">BLOG</span>
                   </Link>
-                </a>
+                </span>
               </li>
             </ul>
           </div>

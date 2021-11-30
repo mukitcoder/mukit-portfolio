@@ -1,6 +1,6 @@
 [
     {
-        "key": "1",
+        "id": "a1",
         "img": "https://i.ibb.co/rwFY5y0/sunglass-pro.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
         "liveLink": "https://sunglass-pro.web.app/",
@@ -10,7 +10,7 @@
        
     },
     {
-        "key": "2",
+        "id": "a2",
         "img": "https://i.ibb.co/k0xwCpK/the-travel.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
         "liveLink": "https://the-travel-react.web.app/",
@@ -20,7 +20,7 @@
        
     },
     {
-        "key": "3",
+        "id": "a3",
         "img": "https://i.ibb.co/BC2yzBd/dentistry.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
         "liveLink": "https://dentistry-react.web.app/",
@@ -30,7 +30,7 @@
        
     },
     {
-        "key": "4",
+        "id": "a4",
         "img": "https://i.ibb.co/h866H66/verbalizer.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
         "liveLink": "https://verbalizer-education.netlify.app/",
@@ -40,7 +40,7 @@
        
     },
     {
-        "key": "5",
+        "id": "a5",
         "img": "https://i.ibb.co/xMHw1x1/life-skill-devlopment.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
         "liveLink": "https://skillsyouneed.netlify.app/",
@@ -50,7 +50,7 @@
        
     },
     {
-        "key": "6",
+        "id": "a6",
         "img": "https://i.ibb.co/5MDXZx6/honda.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
         "liveLink": "https://honda-cbr-bootstrap-mukit.netlify.app/",
