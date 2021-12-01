@@ -3,63 +3,75 @@
         "id": "a1",
         "img": "https://i.ibb.co/rwFY5y0/sunglass-pro.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
+        "bigImage": "https://i.ibb.co/NmFtqx4/sun.png",
         "liveLink": "https://sunglass-pro.web.app/",
         "clientLink": "https://github.com/mukitcoder/sunglass",
         "name": "Sunglass Pro",
-        "description": "This is a full stack website. Admin & User can add or delete booking."
+        "description": "Full-stack niche-related website & users can sign up & log in via custom or Google. Fully responsive UI with slider, spinner & hover effect. Users can book or purchase a product, cancel an order & add review. Have Admin & User dashboard. Admin can delete, add, manage services & can make a user admin."
        
     },
     {
         "id": "a2",
         "img": "https://i.ibb.co/k0xwCpK/the-travel.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
+        "bigImage": "https://i.ibb.co/s6V48b9/traveltour.png",
         "liveLink": "https://the-travel-react.web.app/",
         "clientLink": "https://github.com/mukitcoder/travel",
         "name": "Travel Web",
-        "description": "This is a full stack website. User can add or delete product & booking."
+        "description": "Full-stack tour-related website & users can sign up or log in via Google. Users can book or purchase packages, cancel the order & add services. Easy to use with a responsive user interface."
        
     },
     {
         "id": "a3",
         "img": "https://i.ibb.co/BC2yzBd/dentistry.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
+        "bigImage": "https://i.ibb.co/BK1hM7g/dentistryon.png",
         "liveLink": "https://dentistry-react.web.app/",
         "clientLink": "https://github.com/mukitcoder/dentistry",
         "name": "Dentistry",
-        "description": "Authentication project. Dynamic registration and login system."
+        "description": "Dental-service-related website. Users friendly & fully responsive with slider & hover effect. Users can create a new account & log in via Custom, Google & Github"
        
     },
     {
         "id": "a4",
         "img": "https://i.ibb.co/h866H66/verbalizer.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
+        "bigImage": "https://i.ibb.co/bJnXSvs/verbalizerlanguage.png",
         "liveLink": "https://verbalizer-education.netlify.app/",
         "clientLink": "https://github.com/mukitcoder/verbalizer",
         "name": "Verbalizer",
-        "description": "Authentication project. Learning for various type of language."
+        "description": "React routing project. Learning for various type of language. Fully responsive UI. There have four menus home, service, about us & contact."
        
     },
     {
         "id": "a5",
         "img": "https://i.ibb.co/xMHw1x1/life-skill-devlopment.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
+        "bigImage": "https://i.ibb.co/2KPHvz2/lifeskill.png",
         "liveLink": "https://skillsyouneed.netlify.app/",
         "clientLink": "https://github.com/mukitcoder/life-skill",
         "name": "Life Skill Development",
-        "description": "Life Skill Development related project.You can hire a speaker !"
+        "description": "Life Skill Development related project.You can hire a speaker ! using hire button. Have a fees cart & here you can see the total fees. "
        
     },
     {
         "id": "a6",
         "img": "https://i.ibb.co/5MDXZx6/honda.png",
         "logo": "https://i.ibb.co/2SwWftK/reactnew.png",
+        "bigImage": "https://i.ibb.co/6bKZXC6/honda.png",
         "liveLink": "https://honda-cbr-bootstrap-mukit.netlify.app/",
         "clientLink": "https://github.com/mukitcoder/honda-cbr",
         "name": "Honda CBR",
-        "description": "Honda CBR related simple Front-End Bootstrap project. Mobile friendly."
+        "description": "Honda CBR related simple Front-End Bootstrap project. Mobile friendly & it was my first bootstrap project."
        
     }
 ]
+
+
+
+
+
+
 
 
 

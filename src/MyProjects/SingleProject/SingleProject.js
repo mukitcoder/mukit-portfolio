@@ -18,7 +18,7 @@ const SingleProject = () => {
 
 	<div class="container mx-auto mt-10 mb-10 lg:mb-40 lg:px-20">
 		<div class="relative w-full my-4 lg:w-9/12 mr-auto rounded-2xl shadow-2xl">
-			<img alt="Card" src="https://cdn.pixabay.com/photo/2015/06/08/15/06/woman-801872_960_720.jpg" class="max-w-full rounded-lg shadow-lg"/>
+			<img alt="Card" src={pro?.bigImage} class="max-w-full rounded-lg shadow-lg"/>
         </div>
 		<div class="relative w-full lg:-mt-96 lg:w-3/6 p-8 ml-auto bg-blue-800 rounded-2xl z-50">
 		    <div class="flex flex-col text-white">

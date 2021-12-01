@@ -45,7 +45,7 @@ const MyProjects = () => {
                   <div className=" font-bold font-title text-center">{pd.name}</div>
 
                   <div className="text-sm font-light text-center my-2">
-                    {pd.description}
+                    {pd.description.slice(0,100)}...
                   </div>
                   <div className="text-center py-4">
                     <a
