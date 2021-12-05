@@ -5,8 +5,8 @@ const Footer = () => {
 <div className=" bg-gray-900 pb-0">
     <div className="max-w-2xl mx-auto text-white py-10">
         <div className="text-center">
-            <h3 className="text-3xl mb-3 px-4"> Thanks for visit my website </h3>
-            <p> Stay fit. All day, every day. </p>
+            <h3 className="text-3xl mb-3 px-4"> Thanks For Visit My Website </h3>
+            <p> Stay fit. All day, Every day. </p>
            
         </div>
         <div className="mt-16 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">

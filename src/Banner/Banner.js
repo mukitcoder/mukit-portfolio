@@ -5,6 +5,7 @@ import Wobble from "react-reveal/Wobble";
 import Swal from 'sweetalert2';
 import bannerImage from "../images/mukit1.png";
 
+
 const Banner = () => {
   const downloadBtn = ()=>{
     Swal.fire(

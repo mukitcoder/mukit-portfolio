@@ -5,11 +5,13 @@ import MyProjects from "../MyProjects/MyProjects";
 import Reviews from "../Reviews/Reviews";
 import Skills from "../Skills/Skills";
 
+
 const Home = () => {
   return (
     <div>
       <div className="pt-16">
-        <Banner></Banner>
+        <Banner>  
+        </Banner>
       </div>
       <Skills></Skills>
       <MyProjects></MyProjects>

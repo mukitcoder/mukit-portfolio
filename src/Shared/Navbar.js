@@ -83,6 +83,15 @@ const Navbar = () => {
                   </Link>
                 </span>
               </li>
+              <li className="nav-item">
+                <span
+                  className="px-3 py-2 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-yellow-500 transform hover:scale-110 motion-reduce:transform-none"
+                 
+                >
+                  <NavHashLink to="/#contactMe"><i class="far fa-address-book"></i>
+                  <span className="ml-2">Contact Me</span></NavHashLink>
+                </span>
+              </li>
             </ul>
           </div>
         </div>
