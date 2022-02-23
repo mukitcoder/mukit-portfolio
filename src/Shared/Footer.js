@@ -10,7 +10,7 @@ const Footer = () => {
            
         </div>
         <div className="mt-16 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-            <p className="order-2 md:order-1 mt-8 md:mt-0"> &copy; ABDULLAH AL MUKIT, 2021. </p>
+            <p className="order-2 md:order-1 mt-8 md:mt-0"> &copy; ABDULLAH AL MUKIT, 2022. </p>
             <div className="order-1 md:order-2 text-2xl cursor-wait">
                 <span className="px-2"><i className="fab fa-facebook"></i></span>
                 <span className="px-2 "><i className="fab fa-twitter"></i></span>
